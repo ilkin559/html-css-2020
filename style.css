@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sansita Swashed', cursive;
+}
+.find{
+background: url(photo/bg-masthead.jpg);
+height: 100vh;
+background-size: cover;
+text-align: center;
+padding-top: 300px;
+
+}
+.find h1{
+    font-size: 4em;
+}
+.find p{
+ font-style: italic;
+ font-size: 1,4em;
+ font-weight: bold;
+ margin-bottom: 30px;
+}
+ .mybtn1{
+    padding: 20px 40px;
+    background: #155d74;
+    color: #ffffff;
+    border: none;
+    display: block;
+    width: 200px;
+    background: #212529;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.4s;
+    margin: 20px auto;
+
+
+}
+.mybtn1:hover{
+    background: #043647;
+
+}
+.offer.mybtn2{
+    background: #232728;
+    color: #ffffff;
+}
+
+.find a:hover{
+background-color: violet;
+}
+.offer{
+    padding: 8em 0;
+    text-align: center;
+}
+.offer.mybtn2{
+    background: #000000;
+    color: white;
+}
+.offer.p{
+    margin: 15px 0px;
+}
+
