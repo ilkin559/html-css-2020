@@ -10,8 +10,13 @@ height: 100vh;
 background-size: cover;
 text-align: center;
 padding-top: 300px;
-
 }
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+
 .find h1{
     font-size: 4em;
 }
@@ -60,4 +65,56 @@ background-color: violet;
 .offer.p{
     margin: 15px 0px;
 }
+.recent-project{
+    padding: 5em 0;
+}
+.recent-project .recent-item{
+    width: 50%;
+    float: left;
+    position: relative;
+    
+}
+.recent-project .recent-item:hover img{
+   clip-path: inset(25px);
+}
+
+.recent-project .recent-item img{
+    width: 100%;
+    vertical-align:middle;
+    clip-path: inset(-1px);
+    transition:clip-path .5s ease-in-out
+}
+.recent-project .recent-item .recent-text{
+    position:absolute;
+    left: 30px;
+    bottom: 30px;
+    padding: 30px;
+    color: white;
+}
+.footer{
+    padding: 20px 0;
+    text-align: center;
+}
+.footer i{
+    padding: 20px;
+    background: blue;
+    color: white;
+    border-radius: 50%;
+    margin: 0 15px;
+}
+
+
+
+
+
+
+
+
+.clear{
+    clear: both;
+}
+
+
+
+
 
